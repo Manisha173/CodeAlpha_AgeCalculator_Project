@@ -1,0 +1,57 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg, #5f17cb, #f4f5f8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.age-container {
+    border-radius: 10px;
+    padding: 30px;
+    width: 500px;
+    height: 250px;
+    text-align: center;
+    box-shadow: 0 0 10px 0 black;
+    color: #fff;
+}
+
+.age-header {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 10px;
+}
+
+label {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    display: block;
+    font-family: 'Poppins',sans-serif;
+}
+
+.age-dob-input {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.calculate-btn {
+    font-size: 1.2rem;
+    width: 200px;
+    height: 40px;
+    background-color:rgb(198, 230, 92);
+    color:black;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
